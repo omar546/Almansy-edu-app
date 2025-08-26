@@ -58,7 +58,6 @@ android/
 | `flutter_bloc`           | Cubit/Bloc state management               |
 | `get_it`                 | Service locator / dependency injection    |
 | `dio`                    | HTTP client for APIs                      |
-| `equatable`              | Simplifies equality comparisons in models |
 | `flutter_secure_storage` | Secure key/value storage                  |
 | `url_launcher`           | Open links, phone, email, etc.            |
 | `flutter_svg`            | SVG asset rendering                       |
