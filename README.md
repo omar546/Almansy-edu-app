@@ -29,26 +29,26 @@ The project follows **Clean Architecture** principles with a **feature-based str
 ## 📂 Project Structure
 ```bash
 lib/
- └── features/
-     └── auth/
-         └── presentation/
-             └── pages/
-                 └── register_screen.dart
-
-assets/
- ├── icons & svgs
- ├── logos
- └── temp (sample images)
-
-android/
- ├── app/
- │   ├── src/
- │   │   └── main/
- │   │       ├── kotlin/com/example/mansy/MainActivity.kt
- │   │       ├── res/ (drawables, mipmaps, styles)
- │   │       └── AndroidManifest.xml
- │   └── build.gradle.kts
- └── settings.gradle.kts
+ ├── core/                   # shared code (constants, utils, di, widgets, services)
+ │
+ ├── features/
+ │    ├── auth/              # Authentication feature
+ │    │    ├── data/         # data sources, models, repository implementations
+ │    │    ├── domain/       # entities, usecases, repository contracts
+ │    │    └── presentation/ # state management (cubit/bloc), pages, widgets
+ │    │
+ │    ├── home/              # Home & courses feature
+ │    │    ├── data/
+ │    │    ├── domain/
+ │    │    └── presentation/
+ │    │
+ │    ├── info/              # Static pages (about, contact, terms)
+ │    │    └── presentation/
+ │    │
+ │    └── splash/            # Splash feature
+ │         └── presentation/
+ │
+ └── main.dart               # app entry point
 ````
 
 ## 📦 Dependencies
