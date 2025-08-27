@@ -73,23 +73,16 @@ lib/
 ## 🖼️ Screenshots
 <h3 align="center">Guest</h3>
 <img width="1080" height="1080" alt="Guest" src="https://github.com/user-attachments/assets/6e9a8cbc-f5cd-45d9-b66e-25327eca996b" />
-
 <h3 align="center">Auth</h3>
-
 <img width="1080" height="1080" alt="auth" src="https://github.com/user-attachments/assets/6b429bf5-3eb2-43af-b692-b41bdb48b846" />
-
 <h3 align="center">Home</h3>
-
 <img width="1080" height="1080" alt="home" src="https://github.com/user-attachments/assets/03f23a82-63bd-404d-873d-485cf49397e7" />
-
 <h3 align="center">Profile</h3>
-
 <img width="1080" height="1080" alt="Profile" src="https://github.com/user-attachments/assets/d8951b51-2e10-40ca-9a37-62aaa179d6ae" />
-
 <h3 align="center">Course content</h3>
-
 <img width="1080" height="1080" alt="course content" src="https://github.com/user-attachments/assets/469aad81-c590-4fbb-ade0-81da6db81a5d" />
-##🏢 Acknowledgments
+
+## 🏢 Acknowledgments
 
 Developed for N.I.T as part of an educational solution for Teacher Almansy.
 
